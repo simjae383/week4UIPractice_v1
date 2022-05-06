@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.week4uipractice_v1.utils.ContextUtil
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_splash.*
 
 class MainActivity : AppCompatActivity() {
@@ -11,6 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//          1. 로그아웃 버튼 클릭시 로그인 페이지로 이동
         logoutBtn.setOnClickListener {
             val myIntent = Intent(this, LoginActivity::class.java)
             startActivity(myIntent)

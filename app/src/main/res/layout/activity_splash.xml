@@ -8,20 +8,9 @@
     android:gravity="center"
     tools:context=".SplashActivity">
 
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HelloWorld!"/>
-
-    <Button
-        android:id="@+id/logoutBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="30dp"
-        android:text="@string/logoutBtn"
-        android:textSize="16sp"
-        android:textStyle="bold"/>
+        android:src="@mipmap/ic_nepp_plus"/>
 
 </LinearLayout>
