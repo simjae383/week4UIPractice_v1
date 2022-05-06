@@ -14,7 +14,7 @@ class LoginActivity : AppCompatActivity() {
     var inputId = ""
     var inputPw = ""
 
-    val autoLogin = false
+    var autoLogin = false
 // 5. 액티비티 전역에서 쓸 수 있도록
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
